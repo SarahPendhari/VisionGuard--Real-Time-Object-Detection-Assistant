@@ -1,1 +1,1 @@
-# SarahPendhari-VisionGuard--Real-Time-Object-Detection-Assistant
+VisionGuard--Real-Time-Object-Detection-Assistant
