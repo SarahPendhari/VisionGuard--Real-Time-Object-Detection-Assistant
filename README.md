@@ -57,7 +57,7 @@ Run the main script: python src/main.py
 Run the main script:
 python src/main.py
 
-#How It Works
+## How It Works
 VisionGuard uses the YOLOv3 (You Only Look Once version 3) model for object detection. YOLOv3 is a state-of-the-art, real-time object detection system that can detect multiple objects in a single frame with high accuracy.
 
 Video Capture: The system captures video frames from either the laptop webcam or a smartphone camera (via DroidCam).
