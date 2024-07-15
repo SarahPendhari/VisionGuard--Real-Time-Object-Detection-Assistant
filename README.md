@@ -54,62 +54,6 @@ Run the main script: python src/main.py
    ```python
    video_capture = VideoCapture('http://YOUR_PHONE_IP:4747/video')
 
-Certainly! Here's a suggestion for your repository name and a comprehensive README.md file:
-Repository Name: "VisionGuard: Real-Time Object Detection Assistant"
-Here's the markdown content for your README.md:
-markdownCopy# VisionGuard: Real-Time Object Detection Assistant
-
-VisionGuard is an advanced real-time object detection system that uses computer vision to identify objects, calculate distances, and provide audio feedback. It's designed to assist users in navigating their environment by detecting potential obstacles and providing timely warnings.
-
-## Features
-
-- Real-time object detection using YOLOv3
-- Distance calculation for detected objects
-- Audio warnings for close objects
-- Support for both laptop webcam and smartphone camera (via DroidCam)
-- Visual display with bounding boxes and object labels
-
-## Requirements
-
-- Python 3.7+
-- OpenCV
-- NumPy
-- pyttsx3 (for audio output)
-- YOLOv3 weights and configuration files
-
-## Installation
-
-1. Clone this repository:
-git clone https://github.com/yourusername/VisionGuard.git
-cd VisionGuard
-Copy
-2. Install required packages:
-pip install -r requirements.txt
-Copy
-3. Download YOLOv3 weights and configuration files:
-- [YOLOv3 weights](https://pjreddie.com/media/files/yolov3.weights)
-- [YOLOv3 config](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg)
-- [COCO names](https://github.com/pjreddie/darknet/blob/master/data/coco.names)
-
-Place these files in the `models/` and `config/` directories respectively.
-
-## Usage
-
-### Using Laptop Webcam
-
-Run the main script:
-python src/main.py
-
-### Using Smartphone Camera (via DroidCam)
-
-1. Install DroidCam on your smartphone and computer.
-2. Connect both devices to the same Wi-Fi network.
-3. Open DroidCam on your smartphone and note the IP address and port.
-4. Modify the `video_capture.py` file to use the DroidCam URL:
-
-   ```python
-   video_capture = VideoCapture('http://YOUR_PHONE_IP:4747/video')
-
 Run the main script:
 python src/main.py
 
